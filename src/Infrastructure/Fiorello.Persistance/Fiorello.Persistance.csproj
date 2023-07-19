@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Fiorello.Application\Fiorello.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Implementations\" />
+    <None Remove="Implementations\Repositories\" />
+    <None Remove="Implementations\Services\" />
+    <None Remove="Contexts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Implementations\" />
+    <Folder Include="Implementations\Repositories\" />
+    <Folder Include="Implementations\Services\" />
+    <Folder Include="Contexts\" />
+  </ItemGroup>
+</Project>

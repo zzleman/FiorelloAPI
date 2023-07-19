@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fiorello.Domain\Fiorello.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Abstraction\" />
+    <None Remove="Abstraction\Repository\" />
+    <None Remove="Abstraction\Services\" />
+    <None Remove="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstraction\" />
+    <Folder Include="Abstraction\Repository\" />
+    <Folder Include="Abstraction\Services\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+</Project>

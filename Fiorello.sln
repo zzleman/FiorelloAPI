@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79457308-7938-49D2-A1BB-205B495EB71C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FD753625-8772-48C2-8FD8-E94DBC205705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A6AD6785-1A5F-40B5-96B1-BBF8346A0B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{83DEDEC7-1933-4E4C-A761-5C166247F1B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prsentation", "Prsentation", "{921BEC55-60D9-4732-90D1-5ECD1F8EE3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorello.Domain", "src\Core\Fiorello.Domain\Fiorello.Domain.csproj", "{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorello.Persistance", "src\Infrastructure\Fiorello.Persistance\Fiorello.Persistance.csproj", "{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorello.Application", "src\Core\Fiorello.Application\Fiorello.Application.csproj", "{7C5D1D81-A96F-4588-A124-974F4744A54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorello.API", "src\Prsentation\Fiorello.API\Fiorello.API.csproj", "{9737753F-3D35-4C56-9F37-DA941C82B2D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5D1D81-A96F-4588-A124-974F4744A54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5D1D81-A96F-4588-A124-974F4744A54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5D1D81-A96F-4588-A124-974F4744A54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5D1D81-A96F-4588-A124-974F4744A54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9737753F-3D35-4C56-9F37-DA941C82B2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9737753F-3D35-4C56-9F37-DA941C82B2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9737753F-3D35-4C56-9F37-DA941C82B2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9737753F-3D35-4C56-9F37-DA941C82B2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23E3D925-9829-4B54-AB1F-73171B390107}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6AD6785-1A5F-40B5-96B1-BBF8346A0B71} = {79457308-7938-49D2-A1BB-205B495EB71C}
+		{83DEDEC7-1933-4E4C-A761-5C166247F1B1} = {79457308-7938-49D2-A1BB-205B495EB71C}
+		{921BEC55-60D9-4732-90D1-5ECD1F8EE3B8} = {79457308-7938-49D2-A1BB-205B495EB71C}
+		{30F92A80-F945-4EB3-B54D-E2D0D6EC2B49} = {A6AD6785-1A5F-40B5-96B1-BBF8346A0B71}
+		{C5DBF60C-F7E0-468D-9DDA-35FFFBEED17D} = {83DEDEC7-1933-4E4C-A761-5C166247F1B1}
+		{7C5D1D81-A96F-4588-A124-974F4744A54B} = {A6AD6785-1A5F-40B5-96B1-BBF8346A0B71}
+		{9737753F-3D35-4C56-9F37-DA941C82B2D1} = {921BEC55-60D9-4732-90D1-5ECD1F8EE3B8}
+	EndGlobalSection
+EndGlobal

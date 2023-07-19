@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{9737753F-3D35-4C56-9F37-DA941C82B2D1}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.Prsentation.Fiorello.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>src/Core/Fiorello.Domain/Fiorello.Application/Fiorello.Application.csproj</String>
+  </DisabledProjects>
+</Properties>
