@@ -16,9 +16,10 @@
     <None Remove="DTOs\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstraction\" />
-    <Folder Include="Abstraction\Repository\" />
     <Folder Include="Abstraction\Services\" />
     <Folder Include="DTOs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
   </ItemGroup>
 </Project>
