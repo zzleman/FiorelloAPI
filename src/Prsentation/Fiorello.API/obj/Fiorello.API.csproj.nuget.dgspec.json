@@ -41,6 +41,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,6 +144,9 @@
             "projectReferences": {
               "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Application/Fiorello.Application.csproj": {
                 "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Application/Fiorello.Application.csproj"
+              },
+              "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Domain/Fiorello.Domain.csproj": {
+                "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Domain/Fiorello.Domain.csproj"
               }
             }
           }
@@ -151,6 +160,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -210,6 +229,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

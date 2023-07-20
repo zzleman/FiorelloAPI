@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using Fiorello.Application.Abstraction.Repository;
-using Fiorello.Domain.Entities;
 using Fiorello.Domain.Entities.Common;
 using Fiorello.Persistance.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -34,3 +32,4 @@ public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity, new(
         Table.Update(entity);
     }
 }
+
