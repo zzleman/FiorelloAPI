@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Fiorello.Application\Fiorello.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Fiorello.Domain\Fiorello.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Implementations\" />
