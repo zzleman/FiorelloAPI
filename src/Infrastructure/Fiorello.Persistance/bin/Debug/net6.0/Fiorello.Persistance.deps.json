@@ -9,6 +9,7 @@
       "Fiorello.Persistance/1.0.0": {
         "dependencies": {
           "Fiorello.Application": "1.0.0",
+          "Fiorello.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20"
         },
@@ -466,7 +467,8 @@
       },
       "Fiorello.Application/1.0.0": {
         "dependencies": {
-          "Fiorello.Domain": "1.0.0"
+          "Fiorello.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.20"
         },
         "runtime": {
           "Fiorello.Application.dll": {}

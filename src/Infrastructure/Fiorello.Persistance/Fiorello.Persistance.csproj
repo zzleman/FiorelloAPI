@@ -17,8 +17,6 @@
     <None Remove="Contexts\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Implementations\" />
-    <Folder Include="Implementations\Repositories\" />
     <Folder Include="Implementations\Services\" />
   </ItemGroup>
   <ItemGroup>
