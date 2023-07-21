@@ -14,12 +14,20 @@
     <None Remove="Abstraction\Repository\" />
     <None Remove="Abstraction\Services\" />
     <None Remove="DTOs\" />
+    <None Remove="DTOs\CategoryDTOs\" />
+    <None Remove="Validators\" />
+    <None Remove="Validators\CategoryValidators\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstraction\Services\" />
     <Folder Include="DTOs\" />
+    <Folder Include="DTOs\CategoryDTOs\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Validators\CategoryValidators\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
   </ItemGroup>
 </Project>

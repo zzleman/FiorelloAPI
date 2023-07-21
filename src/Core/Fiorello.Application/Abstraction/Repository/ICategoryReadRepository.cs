@@ -1,8 +1,10 @@
 ﻿
+
 namespace Fiorello.Application.Abstraction.Repository
 {
-	public interface ICategoryReadRepository
-	{
-	}
+    public interface ICategoryReadRepository
+    {
+
+    }
 }
 
