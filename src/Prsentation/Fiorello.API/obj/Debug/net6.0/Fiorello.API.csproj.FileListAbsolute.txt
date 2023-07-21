@@ -221,3 +221,9 @@ C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\obj\Deb
 C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\obj\Debug\net6.0\Fiorello.API.pdb
 C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\obj\Debug\net6.0\Fiorello.API.genruntimeconfig.cache
 C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\obj\Debug\net6.0\ref\Fiorello.API.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\bin\Debug\net6.0\System.Web.Providers.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Prsentation\Fiorello.API\obj\Debug\net6.0\Fiorello.API.MvcApplicationPartsAssemblyInfo.cs
