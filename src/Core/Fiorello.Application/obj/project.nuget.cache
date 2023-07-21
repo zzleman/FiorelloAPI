@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "W0qwCubyZIsNsHxScV3cTjG9OjGE0QS4E3BYyvpy4ihwZq2F7vQ7Wbnb2YS/cyQLAWRUWkGPRZBCcVEbsNuWsA==",
+  "dgSpecHash": "/T1bJATH+w7jpLA9EBCO05UuGnByTOf/4gIgiM40+6CP4q+pqJN/EXTUVl+yCaIBvAxnusKT41fob2nlCAFc1w==",
   "success": true,
   "projectFilePath": "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Application/Fiorello.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/leman/.nuget/packages/fluentvalidation/11.6.0/fluentvalidation.11.6.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.6.0/fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.entityframeworkcore/6.0.20/microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.20/microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.20/microsoft.entityframeworkcore.analyzers.6.0.20.nupkg.sha512",

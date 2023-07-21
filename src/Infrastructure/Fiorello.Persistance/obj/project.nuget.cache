@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sgq27l4GNfT+s+1nPhEL4N7zJvRzJlD07KHT8/Dk5ThnOCgtKzrP2w7VO8PedHjnq4JxHM8WOncijqT00VADAg==",
+  "dgSpecHash": "+5WFhjSy2nUBASq0mbh7y2Lx+Eq7Pt1rF11kLX0BC5AhKprNl8/l/HmwWUHQ+47oaOGAUQ6tb+h0S2inIwINcQ==",
   "success": true,
   "projectFilePath": "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/Fiorello.Persistance.csproj",
   "expectedPackageFiles": [
+    "/Users/leman/.nuget/packages/fluentvalidation/11.6.0/fluentvalidation.11.6.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.6.0/fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/leman/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
