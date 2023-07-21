@@ -11,6 +11,7 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Fiorello.Persistance": "1.0.0",
+          "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.20",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -42,23 +43,23 @@
           }
         }
       },
-      "EntityFramework/6.0.0": {
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.20911.0"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.20911.0"
-          }
-        }
-      },
       "FluentValidation/11.6.0": {
         "runtime": {
           "lib/net6.0/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.6.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.3.0": {
+        "dependencies": {
+          "FluentValidation": "11.6.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.6.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.0.0"
           }
         }
       },
@@ -79,17 +80,6 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
-          }
-        }
-      },
-      "Microsoft.AspNet.Providers.Core/2.0.0": {
-        "dependencies": {
-          "EntityFramework": "6.0.0"
-        },
-        "runtime": {
-          "lib/net40/System.Web.Providers.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.21122.0"
           }
         }
       },
@@ -583,7 +573,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Fiorello.Application": "1.0.0",
           "Fiorello.Domain": "1.0.0",
-          "Microsoft.AspNet.Providers.Core": "2.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20"
         },
@@ -613,19 +602,19 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/12.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512"
     },
-    "EntityFramework/6.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
-      "path": "entityframework/6.0.0",
-      "hashPath": "entityframework.6.0.0.nupkg.sha512"
-    },
     "FluentValidation/11.6.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-DWKd0jHA33d7BXVWytSoN5Oafj9nYuiLUyyFoaUboOZZiaN5tlXdcJpkRbmrrWBUTWdSxjTwIoyUs38KSU/7OQ==",
       "path": "fluentvalidation/11.6.0",
       "hashPath": "fluentvalidation.11.6.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jtFVgKnDFySyBlPS8bZbTKEEwJZnn11rXXJ2SQnjDhZ56rQqybBg9Joq4crRLz3y0QR8WoOq4iE4piV81w/Djg==",
+      "path": "fluentvalidation.aspnetcore/11.3.0",
+      "hashPath": "fluentvalidation.aspnetcore.11.3.0.nupkg.sha512"
     },
     "FluentValidation.DependencyInjectionExtensions/11.6.0": {
       "type": "package",
@@ -640,13 +629,6 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "Microsoft.AspNet.Providers.Core/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JMk31PExMANVDc04aSUyIlcL3pkFVyNg/dDn+ZZzmhZ2CBctI90BWQH1L0zXgD61ZWW5r4ybInV362sRKWIC+A==",
-      "path": "microsoft.aspnet.providers.core/2.0.0",
-      "hashPath": "microsoft.aspnet.providers.core.2.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
