@@ -1947,37 +1947,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\99451\\.nuget\\packages\\": {}
+    "/Users/leman/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
+      "projectUniqueName": "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/Fiorello.Persistance.csproj",
       "projectName": "Fiorello.Persistance",
-      "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
-      "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\obj\\",
+      "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/Fiorello.Persistance.csproj",
+      "packagesPath": "/Users/leman/.nuget/packages/",
+      "outputPath": "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/leman/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj": {
-              "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj"
+            "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Application/Fiorello.Application.csproj": {
+              "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Application/Fiorello.Application.csproj"
             },
-            "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
-              "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj"
+            "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Domain/Fiorello.Domain.csproj": {
+              "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Core/Fiorello.Domain/Fiorello.Domain.csproj"
             }
           }
         }
@@ -2017,7 +2015,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
