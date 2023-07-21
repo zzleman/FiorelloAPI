@@ -10,24 +10,30 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="src/Infrastructure/Fiorello.Persistance/Implementations/Repositories/WriteRepository.cs">
     <Files>
-      <File FileName="src/Infrastructure/Fiorello.Persistance/Implementations/Repositories/WriteRepository.cs" Line="11" Column="51" />
+      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IReadRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IRepository.cs" Line="3" Column="34" />
+      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IWriteRepository.cs" Line="1" Column="1" />
+      <File FileName="src/Infrastructure/Fiorello.Persistance/Implementations/Repositories/WriteRepository.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Fiorello">
+          <Node name="Fiorello" expanded="True">
             <Node name="src" expanded="True">
               <Node name="Core" expanded="True">
                 <Node name="Fiorello.Application" expanded="True">
-                  <Node name="Abstraction" expanded="True" />
+                  <Node name="Abstraction" expanded="True">
+                    <Node name="Repository" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="Infrastructure" expanded="True">
+              <Node name="Infrastructure">
                 <Node name="Fiorello.Persistance">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                  </Node>
                   <Node name="Implementations" expanded="True">
-                    <Node name="Repositories">
-                      <Node name="WriteRepository.cs" selected="True" />
-                    </Node>
+                    <Node name="Repositories" expanded="True" />
                   </Node>
                 </Node>
               </Node>
