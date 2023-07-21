@@ -20,6 +20,9 @@ public class CategoryService : ICategoryService
 
     public async Task CreateAsync(CategoryCreateDto categoryCreateDto)
     {
+        Category? dbCategory = await _readRepository
+       .GetByExpressionAsync(c => c.Name.ToLower().Equals(categoryCreateDto.name.ToLower()));
+        if (dbCategory is not null) { }
     }
 
     public Task<List<CategoryGetDto>> GetAllAsync()
