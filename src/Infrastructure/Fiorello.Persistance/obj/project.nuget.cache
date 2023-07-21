@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "qXL/B7lxyC6CL9t4a7kdhEJFf/ecCk7a1Cp3IxXoJEuLL2Pfq9WEAi13qdhpRo7g9MCTC/Br/g1Qbj8uXj5L3Q==",
+  "dgSpecHash": "zl/Akjj3Td4pNYmigfj5oP6jnV4lkfhwBVxYZ9daltWDp0eQMenmv+WtCMkVMIMO1M8Fg/oVZrgSKYDRvvs9WA==",
   "success": true,
   "projectFilePath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shams\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shams\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\shams\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\shams\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
-    "C:\\Users\\shams\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\shams\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\shams\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\shams\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\shams\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
