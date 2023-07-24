@@ -1,6 +1,7 @@
 ﻿using Fiorello.Application.Abstraction.Repository;
 using Fiorello.Application.Abstraction.Services;
 using Fiorello.Application.Validators.CategoryValidators;
+using Fiorello.Persistance;
 using Fiorello.Persistance.Contexts;
 using Fiorello.Persistance.Implementations.Repositories;
 using Fiorello.Persistance.Implementations.Services;
@@ -15,18 +16,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddFluentValidationClientsideAdapters();
-builder.Services.AddValidatorsFromAssemblyContaining<CategoryCreateDtoValidator>();
-builder.Services.AddAutoMapper(typeof(CategoryProfile).Assembly);
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-});
-builder.Services.AddScoped<ICategoryWriteRepository,CategoryWriteRepository>();
-builder.Services.AddScoped<ICategoryReadRepository, CategoryReadRepository>();
 
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+
+builder.Services.AddPersistenceServices();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

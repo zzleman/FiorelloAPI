@@ -984,6 +984,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Fiorello.Application": "1.0.0",
           "Fiorello.Domain": "1.0.0",
+          "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20"
         },
@@ -2663,40 +2664,40 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Fiorello.Persistance >= 1.0.0",
-      "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.20",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.20",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/leman/.nuget/packages/": {}
+    "C:\\Users\\99451\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leman/Desktop/API/Fiorello/src/Prsentation/Fiorello.API/Fiorello.API.csproj",
+      "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
       "projectName": "Fiorello.API",
-      "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Prsentation/Fiorello.API/Fiorello.API.csproj",
-      "packagesPath": "/Users/leman/.nuget/packages/",
-      "outputPath": "/Users/leman/Desktop/API/Fiorello/src/Prsentation/Fiorello.API/obj/",
+      "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
+      "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/leman/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/Fiorello.Persistance.csproj": {
-              "projectPath": "/Users/leman/Desktop/API/Fiorello/src/Infrastructure/Fiorello.Persistance/Fiorello.Persistance.csproj"
+            "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {
+              "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj"
             }
           }
         }
@@ -2718,10 +2719,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "FluentValidation.AspNetCore": {
-            "target": "Package",
-            "version": "[11.3.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -2757,7 +2754,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
