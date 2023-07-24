@@ -10,12 +10,5 @@ public class CategoryReadRepository : ReadRepository<Category>, ICategoryReadRep
     public CategoryReadRepository(AppDbContext context) : base(context)
     {
     }
-
-    public Task<Category?> GetByIdAysnc(Guid id)
-    {
-        throw new NotImplementedException();
-    }
-
-    //Guid gore implement aldi yoxla!
 }
 

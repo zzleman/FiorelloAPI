@@ -29,5 +29,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
     <PackageReference Include="FluentValidation" Version="11.6.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="6.0.20" />
   </ItemGroup>
 </Project>
