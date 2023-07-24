@@ -18,6 +18,7 @@
     <None Remove="Validators\" />
     <None Remove="Validators\CategoryValidators\" />
     <None Remove="DTOs\ResponseDTOs\" />
+    <None Remove="DTOs\AuthDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstraction\Services\" />
@@ -26,6 +27,7 @@
     <Folder Include="Validators\" />
     <Folder Include="Validators\CategoryValidators\" />
     <Folder Include="DTOs\ResponseDTOs\" />
+    <Folder Include="DTOs\AuthDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
