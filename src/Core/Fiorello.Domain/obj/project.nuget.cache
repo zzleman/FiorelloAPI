@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "ATM1oHUNUor69FmnPpC97Mh9/xC+xxywKfodYlAMN1+Dhr28yCMe6FylGYVsbsqVO8FiEuGnHqRGtLLoFBDJSQ==",
+  "dgSpecHash": "BWH591DFFX3LrfYYEN3Vnw9CZglFi11Pfl1Zao9+INfFcKlGrGcix8Ai7ZQUzRr8Vk1XQo3SXq6yW7s4oyz8lA==",
   "success": true,
   "projectFilePath": "/Users/leman/Desktop/FiorelloAPI/src/Core/Fiorello.Domain/Fiorello.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/leman/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.20/microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.20/microsoft.aspnetcore.cryptography.keyderivation.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.20/microsoft.aspnetcore.identity.entityframeworkcore.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.entityframeworkcore/6.0.20/microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.20/microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.20/microsoft.entityframeworkcore.analyzers.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.20/microsoft.entityframeworkcore.relational.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.identity.core/6.0.20/microsoft.extensions.identity.core.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.identity.stores/6.0.20/microsoft.extensions.identity.stores.6.0.20.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/leman/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/leman/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
