@@ -2,7 +2,7 @@
 
 namespace Fiorello.Persistance.Exceptions;
 
-public class NotFoundException : Exception, IBaseException
+public class NotFoundException : Exception, IExceptionHandlerFeature
 {
     public int StatusCode { get ; set; }
     public string CustomMessage { get; set ; }

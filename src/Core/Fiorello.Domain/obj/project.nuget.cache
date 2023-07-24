@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hxosFBEfTEPXupN2hRooFBX/QjET/2uxkiz2DHNzLJF4XAwTbM+C3i7ZHB8KlBXYo5YPX+5UTVnOYT4XbbW97g==",
+  "dgSpecHash": "ATM1oHUNUor69FmnPpC97Mh9/xC+xxywKfodYlAMN1+Dhr28yCMe6FylGYVsbsqVO8FiEuGnHqRGtLLoFBDJSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj",
+  "projectFilePath": "/Users/leman/Desktop/FiorelloAPI/src/Core/Fiorello.Domain/Fiorello.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
