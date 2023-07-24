@@ -2664,7 +2664,6 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Fiorello.Persistance >= 1.0.0",
-      "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.20",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.20",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2720,10 +2719,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "FluentValidation.AspNetCore": {
-            "target": "Package",
-            "version": "[11.3.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
