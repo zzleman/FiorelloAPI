@@ -42,9 +42,11 @@ public class CategoryService : ICategoryService
         return list;
     }
 
-    public Task<CategoryGetDto> GetByIdAsync(Guid Id)
+    public async Task<CategoryGetDto> GetByIdAsync(Guid Id)
     {
-        throw new NotImplementedException();
+        Category? categryDb = await _readRepository.GetByIdAysnc(Id);//alt enterden readrepoda deyisiklik oldu yoxla!
+        if (categryDb is null) throw new NotFoundException("Category not found!");
+        return _mapper.Map<CategoryGetDto>(categryDb);
     }
 }
 

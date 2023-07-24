@@ -24,9 +24,20 @@ public class CategoriesController : ControllerBase
     }
 
     [HttpGet("id")]
-    public string Get(int id)
+    public async Task<IActionResult> Get(Guid id)
     {
-        return "Hello";
+        try
+        {
+            CategoryGetDto result = await _categoryService.GetByIdAsync(id);
+            return Ok(result);
+        }
+        catch (NotFoundException ex)
+        {
+            return StatusCode(ex.StatusCode, ex.Message);
+        }catch(Exception ex)
+        {
+            return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+        }
     }
     [HttpPost]
     public async Task<IActionResult>Post(CategoryCreateDto categoryCreateDto)
