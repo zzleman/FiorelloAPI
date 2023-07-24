@@ -1,4 +1,4 @@
 ﻿
 namespace Fiorello.Application.DTOs.CategoryDTOs;
 
-public record CategoryCreateDto(string name, string description);
+public record CategoryCreateDto(string name, string? description);

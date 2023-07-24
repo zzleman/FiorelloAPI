@@ -28,7 +28,8 @@ public class CategoryService : ICategoryService
         Category? dbCategory = await _readRepository
        .GetByExpressionAsync(c => c.Name.ToLower().Equals(categoryCreateDto.name.ToLower()));
         if (dbCategory is not null) throw new DuplicatedException("Dupliacted category name!!");
-        Category newCategory=_mapper.Map<Category>(categoryCreateDto);
+
+        var newCategory=_mapper.Map<Category>(categoryCreateDto);
         await _writeRepository.AddAsync(newCategory);
         await _writeRepository.SaveChangeAsync();
     }
