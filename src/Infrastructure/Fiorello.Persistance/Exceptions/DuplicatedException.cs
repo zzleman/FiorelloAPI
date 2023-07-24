@@ -2,7 +2,7 @@
 
 namespace Fiorello.Persistance.Exceptions;
 
-public class DuplicatedException : Exception, IExceptionHandlerFeature
+public class DuplicatedException : Exception, IBaseException
 {
     public int StatusCode { get; set;}
 

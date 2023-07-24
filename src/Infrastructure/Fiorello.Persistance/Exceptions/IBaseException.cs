@@ -1,7 +1,7 @@
-﻿using System.Net;
+﻿
 namespace Fiorello.Persistance.Exceptions;
 
-public interface IExceptionHandlerFeature
+public interface IBaseException
 {
      public int StatusCode { get; set; }
      public string CustomMessage { get; set; }

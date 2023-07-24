@@ -1,38 +1,35 @@
-﻿using System;
-using System.Net;
-using Fiorello.Application.DTOs.ResponseDTOs;
+﻿using Fiorello.Application.DTOs.ResponseDTOs;
 using Fiorello.Persistance.Exceptions;
-using Newtonsoft.Json;
+using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
 
-namespace Fiorello.API.Middlewares;
+namespace Fiorello.API.Middelewares;
 
-public static class ExceptionHandlerMiddleware
+public static class ExceptionHandlerMiddeleware
 {
-    public static IApplicationBuilder UseCustomExceptionHandler(this IApplicationBuilder app)
+    public static IApplicationBuilder UserCustomExceptionHandler(this IApplicationBuilder app)
     {
         app.UseExceptionHandler(errorApp =>
         {
             errorApp.Run(async context =>
             {
-                var contextFeature = context.Features.Get<IBaseException>();
-                int statusCode = (int)HttpStatusCode.InternalServerError;
+                var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+                int StatusCode = (int)HttpStatusCode.InternalServerError;
                 string message = "Internal Server Error";
 
-                if (contextFeature != null)
+                if (contextFeature is not null)
                 {
-
                     if (contextFeature.Error is IBaseException)
                     {
                         var exception = (IBaseException)contextFeature.Error;
-                        statusCode = exception.StatusCode;
+                        StatusCode = exception.StatusCode;
                         message = exception.CustomMessage;
                     }
                 }
-                context.Response.StatusCode = statusCode;
-                await context.Response.WriteAsJsonAsync(new ExceptionResponseDto(statusCode, message));
+                context.Response.StatusCode = StatusCode;
+                await context.Response.WriteAsJsonAsync(new ExceptionResponseDto(StatusCode, message));
             });
         });
         return app;
     }
 }
-
