@@ -44,7 +44,7 @@ public class CategoryService : ICategoryService
 
     public async Task<CategoryGetDto> GetByIdAsync(Guid Id)
     {
-        Category? categryDb = await _readRepository.GetByIdAysnc(Id);//alt enterden readrepoda deyisiklik oldu yoxla!
+        Category? categryDb = await _readRepository.GetByIdAysnc(Id);
         if (categryDb is null) throw new NotFoundException("Category not found!");
         return _mapper.Map<CategoryGetDto>(categryDb);
     }

@@ -64,7 +64,7 @@ public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity, new()
         return await query.FirstOrDefaultAsync(expression);
     }
 
-    public async Task<T?> GetByIdAysnc(int Id)
+    public async Task<T?> GetByIdAysnc(Guid Id)
     {
         return await Table.FindAsync(Id);
     }

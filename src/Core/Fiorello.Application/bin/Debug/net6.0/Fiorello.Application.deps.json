@@ -11,7 +11,8 @@
           "Fiorello.Domain": "1.0.0",
           "FluentValidation": "11.6.0",
           "FluentValidation.DependencyInjectionExtensions": "11.6.0",
-          "Microsoft.EntityFrameworkCore": "6.0.20"
+          "Microsoft.EntityFrameworkCore": "6.0.20",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.20"
         },
         "runtime": {
           "Fiorello.Application.dll": {}
