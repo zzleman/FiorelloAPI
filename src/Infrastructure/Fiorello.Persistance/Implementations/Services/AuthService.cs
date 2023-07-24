@@ -2,6 +2,8 @@
 using Fiorello.Application.Abstraction.Services;
 using Fiorello.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
+using System.Text;
+using Fiorello.Persistance.Exceptions;
 
 namespace Fiorello.Persistance.Implementations.Services;
 
@@ -24,7 +26,15 @@ public class AuthService : IAuthService
             IsActive = true
         };
         IdentityResult identityResult = await _userManager.CreateAsync(appUser, registerDto.password);
-
+        if (!identityResult.Succeeded)
+        {
+            StringBuilder errorMessage = new();
+            foreach (var error in identityResult.Errors)
+            {
+                errorMessage.AppendLine(error.Description);
+            }
+            throw new RegistrationException(errorMessage.ToString());
+        }
     }
 }
 
