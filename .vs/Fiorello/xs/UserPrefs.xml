@@ -8,37 +8,30 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Prsentation/Fiorello.API/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Prsentation/Fiorello.API/Middlewares/ExceptionHandlerMiddleware.cs">
     <Files>
-      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IReadRepository.cs" />
-      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IRepository.cs" />
-      <File FileName="src/Core/Fiorello.Application/Abstraction/Repository/IWriteRepository.cs" />
-      <File FileName="src/Infrastructure/Fiorello.Persistance/Implementations/Repositories/WriteRepository.cs" Line="14" Column="1" />
-      <File FileName="src/Prsentation/Fiorello.API/Program.cs" Line="1" Column="1" />
-      <File FileName="src/Prsentation/Fiorello.API/appsettings.json" Line="14" Column="1" />
+      <File FileName="src/Core/Fiorello.Application/DTOs/ResponseDTOs/ExceptionResponseDto.cs" Line="13" Column="39" />
+      <File FileName="src/Prsentation/Fiorello.API/Middlewares/ExceptionHandlerMiddleware.cs" Line="17" Column="72" />
+      <File FileName="src/Prsentation/Fiorello.API/Program.cs" Line="36" Column="2" />
+      <File FileName="src/Prsentation/Fiorello.API/Controllers/CategoriesController.cs" Line="28" Column="6" />
+      <File FileName="src/Infrastructure/Fiorello.Persistance/Exceptions/IBaseException.cs" Line="5" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fiorello">
             <Node name="src" expanded="True">
-              <Node name="Core" expanded="True">
-                <Node name="Fiorello.Application">
-                  <Node name="Abstraction" expanded="True">
-                    <Node name="Repository" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Core" expanded="True" />
               <Node name="Infrastructure">
                 <Node name="Fiorello.Persistance">
-                  <Node name="Implementations" expanded="True">
-                    <Node name="Repositories" expanded="True" />
-                  </Node>
+                  <Node name="Exceptions" expanded="True" />
                 </Node>
               </Node>
               <Node name="Prsentation" expanded="True">
                 <Node name="Fiorello.API">
-                  <Node name="appsettings.json" selected="True" />
+                  <Node name="Middlewares" expanded="True">
+                    <Node name="ExceptionHandlerMiddleware.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>

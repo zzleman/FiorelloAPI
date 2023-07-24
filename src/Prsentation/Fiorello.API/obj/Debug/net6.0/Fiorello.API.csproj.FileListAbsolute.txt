@@ -264,6 +264,7 @@ C:/Users/99451/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/obj/Debug/net6.0
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/leman/Desktop/FiorelloAPI/src/Prsentation/Fiorello.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll

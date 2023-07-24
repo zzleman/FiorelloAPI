@@ -1,4 +1,5 @@
-﻿using Fiorello.Application.Abstraction.Repository;
+﻿using Fiorello.API.Middlewares;
+using Fiorello.Application.Abstraction.Repository;
 using Fiorello.Application.Abstraction.Services;
 using Fiorello.Application.Validators.CategoryValidators;
 using Fiorello.Persistance;
@@ -35,7 +36,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCustomExceptionHandler();
 app.UseAuthorization();
 
 app.MapControllers();
