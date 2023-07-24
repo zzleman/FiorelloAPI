@@ -23,8 +23,8 @@ public class CategoriesController : ControllerBase
         _categoryService = categoryService;
     }
 
-    [HttpGet]
-    public string Get()
+    [HttpGet("id")]
+    public string Get(int id)
     {
         return "Hello";
     }
@@ -42,6 +42,19 @@ public class CategoriesController : ControllerBase
         }catch(Exception ex)
         {
             return StatusCode((int)HttpStatusCode.InternalServerError,ex .Message);
+        }
+    }
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        try
+        {
+            List <CategoryGetDto> result=await _categoryService.GetAllAsync();
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
         }
     }
 }
