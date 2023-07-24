@@ -1,12 +1,20 @@
 ﻿using Fiorello.Application.DTOs.AuthDTOs;
 using Fiorello.Application.Abstraction.Services;
 using Fiorello.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace Fiorello.Persistance.Implementations.Services;
 
 public class AuthService : IAuthService
 {
-    public Task Register(RegisterDto registerDto)
+    private readonly UserManager<AppUser> _userManager;
+
+    public AuthService(UserManager<AppUser> userManager)
+    {
+        _userManager = userManager;
+    }
+
+    public async Task Register(RegisterDto registerDto)
     {
         AppUser appUser = new()
         {
@@ -15,6 +23,8 @@ public class AuthService : IAuthService
             Email = registerDto.email,
             IsActive = true
         };
+        IdentityResult identityResult = await _userManager.CreateAsync(appUser, registerDto.password);
+
     }
 }
 
