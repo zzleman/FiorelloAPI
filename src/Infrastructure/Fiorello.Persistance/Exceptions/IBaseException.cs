@@ -1,4 +1,5 @@
-﻿namespace Fiorello.Persistance.Exceptions;
+﻿
+namespace Fiorello.Persistance.Exceptions;
 
 public interface IBaseException
 {

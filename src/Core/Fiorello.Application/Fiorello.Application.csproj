@@ -17,13 +17,17 @@
     <None Remove="DTOs\CategoryDTOs\" />
     <None Remove="Validators\" />
     <None Remove="Validators\CategoryValidators\" />
+    <None Remove="DTOs\ResponseDTOs\" />
+    <None Remove="DTOs\AuthDTOs\" />
+    <None Remove="Validators\AuthValidators\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstraction\Services\" />
-    <Folder Include="DTOs\" />
     <Folder Include="DTOs\CategoryDTOs\" />
     <Folder Include="Validators\" />
     <Folder Include="Validators\CategoryValidators\" />
+    <Folder Include="DTOs\AuthDTOs\" />
+    <Folder Include="Validators\AuthValidators\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.20" />
