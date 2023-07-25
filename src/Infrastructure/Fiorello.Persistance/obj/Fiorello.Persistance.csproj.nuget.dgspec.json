@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {}
+    "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj": {
+    "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj",
+        "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj",
         "projectName": "Fiorello.Application",
-        "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj",
-        "packagesPath": "C:\\Users\\shams\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\obj\\",
+        "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj",
+        "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
-                "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj"
+              "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
+                "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj"
               }
             }
           }
@@ -81,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
+    "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj",
         "projectName": "Fiorello.Domain",
-        "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj",
-        "packagesPath": "C:\\Users\\shams\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\obj\\",
+        "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj",
+        "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,17 +142,17 @@
         }
       }
     },
-    "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {
+    "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
         "projectName": "Fiorello.Persistance",
-        "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
-        "packagesPath": "C:\\Users\\shams\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\obj\\",
+        "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj",
+        "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,11 +166,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj": {
-                "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj"
+              "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj": {
+                "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Application\\Fiorello.Application.csproj"
               },
-              "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
-                "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj"
+              "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj": {
+                "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Core\\Fiorello.Domain\\Fiorello.Domain.csproj"
               }
             }
           }

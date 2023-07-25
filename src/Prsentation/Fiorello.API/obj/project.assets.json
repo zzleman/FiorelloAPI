@@ -2890,19 +2890,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shams\\.nuget\\packages\\": {}
+    "C:\\Users\\99451\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
+      "projectUniqueName": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
       "projectName": "Fiorello.API",
-      "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
-      "packagesPath": "C:\\Users\\shams\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\obj\\",
+      "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\Fiorello.API.csproj",
+      "packagesPath": "C:\\Users\\99451\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Prsentation\\Fiorello.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\99451\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2916,8 +2916,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {
-              "projectPath": "C:\\Users\\shams\\OneDrive\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj"
+            "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj": {
+              "projectPath": "C:\\Users\\99451\\Desktop\\FiorelloAPI\\src\\Infrastructure\\Fiorello.Persistance\\Fiorello.Persistance.csproj"
             }
           }
         }
