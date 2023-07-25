@@ -4,6 +4,7 @@ using Fiorello.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using System.Text;
 using Fiorello.Persistance.Exceptions;
+using Fiorello.Application.DTOs.ResponseDTOs;
 
 namespace Fiorello.Persistance.Implementations.Services;
 
@@ -14,6 +15,11 @@ public class AuthService : IAuthService
     public AuthService(UserManager<AppUser> userManager)
     {
         _userManager = userManager;
+    }
+
+    public Task<TokenResponseDto> Login(SignInDto signInDto)
+    {
+        throw new NotImplementedException();
     }
 
     public async Task Register(RegisterDto registerDto)

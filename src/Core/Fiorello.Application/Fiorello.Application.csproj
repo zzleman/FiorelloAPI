@@ -23,11 +23,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstraction\Services\" />
-    <Folder Include="DTOs\" />
     <Folder Include="DTOs\CategoryDTOs\" />
     <Folder Include="Validators\" />
     <Folder Include="Validators\CategoryValidators\" />
-    <Folder Include="DTOs\ResponseDTOs\" />
     <Folder Include="DTOs\AuthDTOs\" />
     <Folder Include="Validators\AuthValidators\" />
   </ItemGroup>
