@@ -17,9 +17,15 @@ public class AuthService : IAuthService
         _userManager = userManager;
     }
 
-    public Task<TokenResponseDto> Login(SignInDto signInDto)
+    public async Task<TokenResponseDto> Login(SignInDto signInDto)
     {
-        throw new NotImplementedException();
+        AppUser appUser = await _userManager.FindByEmailAsync(signInDto.UsernameOrEmail);
+        if (appUser is null)
+        {
+            appUser=await _userManager.FindByNameAsync(signInDto.UsernameOrEmail);
+            if (appUser is null) throw new SignInFailedException("Invalid Login!!!");
+        }
+
     }
 
     public async Task Register(RegisterDto registerDto)
