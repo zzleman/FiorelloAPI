@@ -20,10 +20,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddPersistenceServices();
-builder.Services.AddIdentity<AppUser, IdentityRole>()
-    .AddDefaultTokenProviders()
-    .AddEntityFrameworkStores<AppDbContext>();
+//builder.Services.AddPersistenceServices();
+//builder.Services.AddIdentity<AppUser, IdentityRole>()
+//    .AddDefaultTokenProviders()
+//    .AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddScoped<AppDbContextInitializer>();
 
@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
-    var instance =scope.ServiceProvider.GetService<AppDbContextInitializer>();
+    var instance =scope.ServiceProvider.GetRequiredService<AppDbContextInitializer>();
     await instance.InitializeAsync();
     await instance.RoleSeedAsync();
     await instance.UserSeedAsync();
