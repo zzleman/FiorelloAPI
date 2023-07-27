@@ -10,7 +10,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "Fiorella.Infrastructure": "1.0.0",
+          "Fiorello.Infrastructure": "1.0.0",
           "Fiorello.Persistance": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.20",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20",
@@ -167,22 +167,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -629,15 +629,6 @@
           }
         }
       },
-      "Fiorella.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Fiorello.Application": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.20"
-        },
-        "runtime": {
-          "Fiorella.Infrastructure.dll": {}
-        }
-      },
       "Fiorello.Application/1.0.0": {
         "dependencies": {
           "Fiorello.Domain": "1.0.0",
@@ -656,6 +647,15 @@
         },
         "runtime": {
           "Fiorello.Domain.dll": {}
+        }
+      },
+      "Fiorello.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Fiorello.Application": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.20"
+        },
+        "runtime": {
+          "Fiorello.Infrastructure.dll": {}
         }
       },
       "Fiorello.Persistance/1.0.0": {
@@ -1108,17 +1108,17 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "Fiorella.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Fiorello.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Fiorello.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fiorello.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

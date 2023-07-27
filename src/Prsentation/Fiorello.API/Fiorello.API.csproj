@@ -20,8 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\Fiorella.Infrastructure\Fiorella.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Fiorello.Persistance\Fiorello.Persistance.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Fiorella.Infrastructure\Fiorello.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>

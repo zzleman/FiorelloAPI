@@ -8,7 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Fiorella.Infrastructure.Services.Token;
+namespace Fiorello.Infrastructure.Services.Token;
 
 public class TokenHandler : ITokenHndler
 {

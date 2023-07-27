@@ -1,0 +1,17 @@
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Infrastructure.deps.json
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Infrastructure.dll
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Infrastructure.pdb
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Application.dll
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Domain.dll
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Application.pdb
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/bin/Debug/net6.0/Fiorello.Domain.pdb
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.csproj.AssemblyReference.cache
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.AssemblyInfoInputs.cache
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.AssemblyInfo.cs
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.csproj.CopyComplete
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.dll
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/refint/Fiorello.Infrastructure.dll
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/Fiorello.Infrastructure.pdb
+/Users/leman/Desktop/FiorelloAPI/src/Infrastructure/Fiorella.Infrastructure/obj/Debug/net6.0/ref/Fiorello.Infrastructure.dll
