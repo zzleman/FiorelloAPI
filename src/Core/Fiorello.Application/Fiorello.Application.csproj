@@ -22,7 +22,6 @@
     <None Remove="Validators\AuthValidators\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstraction\Services\" />
     <Folder Include="DTOs\CategoryDTOs\" />
     <Folder Include="Validators\CategoryValidators\" />
     <Folder Include="DTOs\AuthDTOs\" />

@@ -1,0 +1,17 @@
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorella.Infrastructure.deps.json
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorella.Infrastructure.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorella.Infrastructure.pdb
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorello.Application.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorello.Domain.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorello.Application.pdb
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\bin\Debug\net6.0\Fiorello.Domain.pdb
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.AssemblyInfo.cs
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.csproj.CopyComplete
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\refint\Fiorella.Infrastructure.dll
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\Fiorella.Infrastructure.pdb
+C:\Users\shams\OneDrive\Desktop\FiorelloAPI\src\Infrastructure\Fiorella.Infrastructure\obj\Debug\net6.0\ref\Fiorella.Infrastructure.dll
