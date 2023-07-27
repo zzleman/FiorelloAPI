@@ -4,6 +4,7 @@ using Fiorello.Application.Abstraction.Services;
 using Fiorello.Application.DTOs.CategoryDTOs;
 using Fiorello.Domain.Entities;
 using Fiorello.Persistance.Exceptions;
+using Fiorello.Persistance.Implementations.Repositories;
 using Fiorello.Persistance.Resources;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
@@ -55,3 +56,10 @@ public class CategoryService : ICategoryService
     }
 }
 
+//public async Task<CategoryGetDto> GetByIdAsync(Guid Id)
+//{
+//    Category? categryDb = await _readRepository.GetByIdAysnc(Id);
+//    string message = _localizer.GetString("NotFoundExceptionMsg");
+//    if (categryDb is null) throw new NotFoundException(message);
+//    return _mapper.Map<CategoryGetDto>(categryDb);
+//}
