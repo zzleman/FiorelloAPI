@@ -1,13 +1,12 @@
-﻿using Fiorella.Infrastructure.Services.Token;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Fiorello.Infrastructure.Services.Token;
 using Fiorello.Application.Abstraction.Services;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Fiorella.Infrastructure;
+namespace Fiorello.Infrastructure;
 
 public static class ServiceRegistration
 {
-    public static void AddInfrastructureServices(IServiceCollection services)
+    public static void AddInfrastructureServices( this IServiceCollection services)
     {
-        services.AddScoped<ITokenHndler,TokenHandler>();
+        services.AddScoped<ITokenHndler, TokenHandler>();
     }
 }

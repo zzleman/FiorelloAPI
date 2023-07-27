@@ -3,7 +3,8 @@ using Fiorello.Persistance.Contexts;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Fiorella.Infrastructure;
+using Fiorello.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,7 +13,7 @@ builder.Services.AddControllers();
 
 
 builder.Services.AddPersistenceServices();
-//builder.Services.AddInfrastructureServices();
+builder.Services.AddInfrastructureServices();
 
 builder.Services.AddScoped<AppDbContextInitializer>();
 builder.Services.AddAuthentication(options =>

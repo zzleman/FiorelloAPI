@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiorello.Application", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiorello.API", "src\Prsentation\Fiorello.API\Fiorello.API.csproj", "{9737753F-3D35-4C56-9F37-DA941C82B2D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorella.Infrastructure", "src\Infrastructure\Fiorella.Infrastructure\Fiorella.Infrastructure.csproj", "{59A56515-223A-4396-B0D1-B8F1B093A8D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiorello.Infrastructure", "src\Infrastructure\Fiorella.Infrastructure\Fiorello.Infrastructure.csproj", "{59A56515-223A-4396-B0D1-B8F1B093A8D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

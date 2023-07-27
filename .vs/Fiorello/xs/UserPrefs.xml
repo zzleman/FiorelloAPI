@@ -1,36 +1,35 @@
 ﻿<Properties StartupConfiguration="{9737753F-3D35-4C56-9F37-DA941C82B2D1}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <DisabledProjects>
-    <String>src/Core/Fiorello.Domain/Fiorello.Application/Fiorello.Application.csproj</String>
-  </DisabledProjects>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Prsentation/Fiorello.API/Middlewares/ExceptionHandlerMiddleware.cs">
+  <MonoDevelop.Ide.ItemProperties.src.Prsentation.Fiorello.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Infrastructure/Fiorello.Persistance/Implementations/Services/AuthService.cs">
     <Files>
-      <File FileName="src/Core/Fiorello.Application/DTOs/ResponseDTOs/ExceptionResponseDto.cs" Line="13" Column="39" />
-      <File FileName="src/Prsentation/Fiorello.API/Middlewares/ExceptionHandlerMiddleware.cs" Line="17" Column="72" />
-      <File FileName="src/Prsentation/Fiorello.API/Program.cs" Line="36" Column="2" />
-      <File FileName="src/Prsentation/Fiorello.API/Controllers/CategoriesController.cs" Line="28" Column="6" />
-      <File FileName="src/Infrastructure/Fiorello.Persistance/Exceptions/IBaseException.cs" Line="5" Column="20" />
+      <File FileName="src/Infrastructure/Fiorello.Persistance/Implementations/Services/AuthService.cs" Line="41" Column="53" />
+      <File FileName="src/Prsentation/Fiorello.API/appsettings.json" />
+      <File FileName="src/Prsentation/Fiorello.API/Controllers/CategoriesController.cs" />
+      <File FileName="src/Prsentation/Fiorello.API/Controllers/AccountsController.cs" />
+      <File FileName="src/Prsentation/Fiorello.API/Program.cs" />
+      <File FileName="src/Infrastructure/Fiorello.Persistance/ServiceRegistration.cs" />
+      <File FileName="src/Infrastructure/Fiorello.Persistance/Contexts/AppDbContextInitializer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fiorello">
             <Node name="src" expanded="True">
-              <Node name="Core" expanded="True" />
-              <Node name="Infrastructure">
-                <Node name="Fiorello.Persistance">
-                  <Node name="Exceptions" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Fiorello.Application" expanded="True">
+                  <Node name="Abstraction" expanded="True">
+                    <Node name="Services" expanded="True" />
+                  </Node>
+                  <Node name="DTOs" expanded="True">
+                    <Node name="AuthDTOs" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="Prsentation" expanded="True">
-                <Node name="Fiorello.API">
-                  <Node name="Middlewares" expanded="True">
-                    <Node name="ExceptionHandlerMiddleware.cs" selected="True" />
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Fiorello.Persistance" expanded="True">
+                  <Node name="Implementations" expanded="True">
+                    <Node name="Services" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -40,5 +39,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.src.Prsentation.Fiorello.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>src/Core/Fiorello.Domain/Fiorello.Application/Fiorello.Application.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
